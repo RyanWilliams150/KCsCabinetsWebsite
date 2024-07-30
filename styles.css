@@ -1,0 +1,258 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.small-text {
+    font-size:10px;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info div {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #ffffff;
+}
+
+.main-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1c1e2b;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #628395; /* Set the link color to a lighter grey on hover */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    padding: 40px 20px;
+    width: 98%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about img {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery-grid img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #628395;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #333;
+}
+/* Footer Section */
+footer {
+    background: #628395;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-nav a {
+    color: #ffffff; /* Set the link color to white */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add some space between links */
+}
+
+.footer-nav a:hover {
+    color: #cccccc; /* Set the link color to a lighter grey on hover */
+}
+
+.footer-icons {
+    margin-bottom: 10px;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #1c1e2b;
+}
